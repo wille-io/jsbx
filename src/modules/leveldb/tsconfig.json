@@ -1,0 +1,16 @@
+{
+  "compilerOptions":
+  {
+    "module": "commonjs",
+    "target": "es3",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "watch": true
+  },
+  "include":
+  [
+    "./*.ts"
+  ]
+}
