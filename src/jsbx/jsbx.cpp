@@ -728,7 +728,7 @@ bool jsbx_include(const char *filename)
   if (jerry_value_is_error(run))
   {
     run = jerry_get_value_from_error(run, true);
-    print_unhandled_exception(parse, (uint8_t *)nullptr);
+    print_unhandled_exception(run, (uint8_t *)nullptr);
     return false;
   }
   printf("jsbx_include: done!\n");
